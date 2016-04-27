@@ -1,8 +1,7 @@
 {
-  "name": "demo1",
+  "name": "demo-rollup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "author": "uojo",
   "devDependencies": {
     "rollup": "^0.24.1"

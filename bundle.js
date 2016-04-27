@@ -1,10 +1,9 @@
 'use strict';
 
-// This function gets included
-function cube ( x ) {
-	// rewrite this as `square( x ) * x`
-	// and see what happens!
-	return x * x * x;
+var foo = 42;
+
+function main () {
+	console.log(foo);
 }
 
-console.log( cube( 5 ) ); // 125
+module.exports = main;

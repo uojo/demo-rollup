@@ -1,10 +1,10 @@
 'use strict';
 
-// This function gets included
-function cube ( x ) {
-	// rewrite this as `square( x ) * x`
-	// and see what happens!
-	return x * x * x;
-}
+var version = "1.0.0";
 
-console.log( cube( 5 ) ); // 125
+var message = 'current version is ' + version;
+var main = (function () {
+  return console.log(message);
+})
+
+module.exports = main;

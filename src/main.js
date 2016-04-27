@@ -1,2 +1,5 @@
-import { cube } from './maths.js';
-console.log( cube( 5 ) ); // 125
+// 使用babel+json插件
+import { version } from '../package.json';
+
+const message = `current version is ${version}`;
+export default () => console.log( message );

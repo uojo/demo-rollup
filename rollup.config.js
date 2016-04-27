@@ -1,4 +1,4 @@
-// 引入插件
+// 引入插件:json
 import json from 'rollup-plugin-json';
 
 export default {

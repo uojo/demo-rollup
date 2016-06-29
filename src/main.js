@@ -1,2 +1,2 @@
-import { cube } from './maths.js';
+import { cube } from './maths';
 console.log( cube( 5 ) ); // 125

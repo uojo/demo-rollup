@@ -1,0 +1,15 @@
+{
+  "name": "demo-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "author": "uojo",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-rollup": "^0.7.1"
+  },
+  "dependencies": {
+    "rollup": "^0.33.0"
+  }
+}

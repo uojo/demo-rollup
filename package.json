@@ -11,5 +11,9 @@
   },
   "dependencies": {
     "rollup": "^0.33.0"
+  },
+  "scripts":{
+	"built":"grunt rollup",
+	"watch":"grunt blive"
   }
 }
